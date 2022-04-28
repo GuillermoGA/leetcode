@@ -4,6 +4,15 @@ class ListNode:
         self.val = val
         self.next = next
 
+    def __repr__(self):
+        lst = []
+        node = self
+        while(node):
+            lst.append(node.val)
+            node = node.next
+
+        return str(lst)
+
 
 class Solution:
     """
