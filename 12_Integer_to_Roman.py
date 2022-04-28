@@ -7,7 +7,7 @@ class Solution:
     'MCMXCIV'
     """
 
-    def intToroman_num(self, num: int) -> str:
+    def intToRoman(self, num: int) -> str:
         int_to_roman_num_dict = {
             1: "I",
             5: "V",
