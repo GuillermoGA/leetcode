@@ -21,10 +21,6 @@ class Solution:
     >>> l2 = ListNode(5, ListNode(6, ListNode(4)))
     >>> obj.addTwoNumbers(l1 = l1, l2 = l2)
     [7, 0, 8]
-    >>>> obj.addTwoNumbers(l1 = [0], l2 = [0])
-    [0]
-    >>>> obj.addTwoNumbers(l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9])
-    [8, 9, 9, 9, 0, 0, 0, 1]
     """
 
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
@@ -60,9 +56,5 @@ class Solution:
 
 
 if __name__ == "__main__":
-    # import doctest
-    # doctest.testmod()
-    l1 = ListNode(2, ListNode(4, ListNode(3)))
-    l2 = ListNode(5, ListNode(6, ListNode(4)))
-    obj = Solution()
-    print(obj.addTwoNumbers(l1=l1, l2=l2))
+    import doctest
+    doctest.testmod()
